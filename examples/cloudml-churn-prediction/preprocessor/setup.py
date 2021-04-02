@@ -15,7 +15,7 @@
 
 import setuptools
 
-REQUIRED_PACKAGES = ['tensorflow-transform']
+REQUIRED_PACKAGES = ['tensorflow-transform','tensorflow==1.15']
 
 setuptools.setup(
     name='preprocessing',
